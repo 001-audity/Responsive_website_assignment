@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Audity's responsive website</title>
+</head>
+<style>
+    .header-color {
+        background-color: #FFF9F4;
+    }
+    
+    .button {
+        background-color: rgba(61, 79, 243, 1);
+        color: white;
+        width: 150px;
+        height: 50px;
+        border-radius: 10px;
+        padding: 0;
+    }
+    
+    .informal-shoe {
+        border: 0
+    }
+    
+    .informal-shoe img {
+        width: 100%;
+        background-color: lightgray;
+        border-radius: 50px;
+        border: 20px solid white;
+    }
+    
+    .informal-shoe-foot {
+        background-color: white;
+        border: 0;
+        text-align: right;
+    }
+    
+    .formal-shoe {
+        border: 0
+    }
+    
+    .formal-shoe img {
+        width: 100%;
+        border: 20px solid white;
+    }
+    
+    .formal-shoe-foot {
+        background-color: white;
+        border: 0;
+        text-align: right;
+    }
+    
+    .services {
+        padding-top: 50px;
+        border: 0;
+    }
+    
+    .service-card {
+        border: 0;
+        border-radius: 10px;
+    }
+    
+    .icon {
+        padding-left: 40px;
+    }
+    
+    .icon img {
+        width: 50px;
+    }
+</style>
+
+<body>
+    <header class="header-color">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid ms-5">
+                <img src="Photos/nike_noir.ico" alt="" style="height: 70px;">
+                <h1 style="display: inline;">
+                    <span style="color:#ff7f50">Nike</span>React
+                </h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse nav justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav me-5">
+                        <a class="nav-link text-dark ms-5" aria-current="page" href="#">Home</a>
+                        <a class="nav-link text-dark ms-5" href="#">Products</a>
+                        <a class="nav-link text-dark ms-5" href="#">About Us</a>
+                        <a class="nav-link text-dark ms-5" href="#">Contact Us</a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="row d-flex align-items-center px-5">
+            <div class="col-md-7 col-sm banner-text ps-5">
+                <h1 style="color: #ff7f50;">NIKE REACT</h1>
+                <h1>INFINITY RUN 2</h1>
+                <p>Lorem ipsum is simply a dummy text of the printing<br>and typesetting industry.</p>
+                <button class=" btn button"><i class="fa fa-shopping-cart"></i>BUY NOW </button>
+            </div>
+            <div class="col-md-5   col-sm">
+                <img src="Photos/Group 33092.png" class="d-block w-100" alt="...">
+
+
+
+            </div>
+
+        </div>
+
+
+    </header>
+    <section id="shoes" class="ms-5">
+        <h3 class="mt-5 pb-5">CASUAL SHOES</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center rounded">
+            <div class="col ps-5 rounded">
+                <div class="card h-100 w-75 shadow informal-shoe">
+                    <img src="Photos/image 5.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-weight: bold;">Nike Shoe</h5>
+
+                        <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+                        <div class="d-flex bd-highlight mb-3">
+                            <div class="me-auto p-2 bd-highlight mt-2">
+                                <h2 style="color: #ff7f50;">$240</h5>
+                            </div>
+
+                            <div class="p-2 bd-highlight">
+                                <div class="card-footer informal-shoe-foot">
+                                    <button class=" btn button"><i class="fa fa-shopping-cart"></i>   BUY NOW </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col ps-5">
+                <div class="card h-100 w-75 shadow informal-shoe ">
+                    <img src="Photos/Daco_1703273 1.png" class="card-img-top" alt="...">
+                    <div class="card-body rounded">
+                        <h5 class="card-title" style="font-weight: bold;">Sneakers Skate Shoe </h5>
+
+                        <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+                        <div class="d-flex bd-highlight mb-3">
+                            <div class="me-auto p-2 bd-highlight mt-2">
+                                <h2 style="color: #ff7f50;">$240</h5>
+                            </div>
+
+                            <div class="p-2 bd-highlight">
+                                <div class="card-footer informal-shoe-foot">
+                                    <button class=" btn button"><i class="fa fa-shopping-cart"></i>   BUY NOW </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col ps-5">
+                <div class="card h-100 w-75 shadow informal-shoe ">
+                    <img src="Photos/pngegg 1.png" class="card-img-top" alt="...">
+                    <div class="card-body rounded">
+                        <h5 class="card-title" style="font-weight: bold;">Black Shoe</h5>
+
+                        <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+                        <div class="d-flex bd-highlight mb-3">
+                            <div class="me-auto p-2 bd-highlight mt-2">
+                                <h2 style="color: #ff7f50;">$240</h5>
+                            </div>
+
+                            <div class="p-2 bd-highlight">
+                                <div class="card-footer informal-shoe-foot">
+                                    <button class=" btn button"><i class="fa fa-shopping-cart"></i>   BUY NOW </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="shoes" class="ms-5">
+        <h3 class="mt-5 pb-3">FORMAL SHOES</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+            <div class="col ps-5">
+                <div class="card h-100 w-75 shadow formal-shoe ">
+                    <img src="Photos/Mask Group.png" class="card-img-top" alt="...">
+                    <div class="card-body rounded">
+                        <h5 class="card-title" style="font-weight: bold;">Prestige High-Cut Leather </h5>
+
+                        <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+                        <div class="d-flex bd-highlight mb-3">
+                            <div class="me-auto p-2 bd-highlight mt-2">
+                                <h2 style="color: #ff7f50;">$240</h5>
+                            </div>
+
+                            <div class="p-2 bd-highlight">
+                                <div class="card-footer formal-shoe-foot">
+                                    <button class=" btn button"><i class="fa fa-shopping-cart"></i>   BUY NOW </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col ps-5">
+                <div class="card h-100 w-75 shadow formal-shoe rounded">
+                    <img src="Photos/Rectangle 38.png" class="card-img-top" alt="...">
+                    <div class="card-body rounded">
+                        <h5 class="card-title" style="font-weight: bold;">Slip-On Formal Shoe </h5>
+
+                        <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+                        <div class="d-flex bd-highlight mb-3">
+                            <div class="me-auto p-2 bd-highlight mt-2">
+                                <h2 style="color: #ff7f50;">$240</h5>
+                            </div>
+
+                            <div class="p-2 bd-highlight">
+                                <div class="card-footer formal-shoe-foot">
+                                    <button class=" btn button"><i class="fa fa-shopping-cart"></i>   BUY NOW </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col ps-5">
+                <div class="card h-100 w-75 shadow formal-shoe rounded">
+                    <img src="Photos/Rectangle 39.png" class="card-img-top" alt="...">
+                    <div class="card-body rounded">
+                        <h5 class="card-title" style="font-weight: bold;">Slip-On Formal Shoe</h5>
+
+                        <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+                        <div class="d-flex bd-highlight mb-3">
+                            <div class="me-auto p-2 bd-highlight mt-2">
+                                <h2 style="color: #ff7f50;">$240</h5>
+                            </div>
+
+                            <div class="p-2 bd-highlight">
+                                <div class="card-footer formal-shoe-foot">
+                                    <button class=" btn button"><i class="fa fa-shopping-cart"></i>   BUY NOW </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="mt-5 ms-5">
+        <div class="row  p-5">
+            <div class="col-md-6 col-sm d-flex align-items-center">
+                <div class="container">
+
+
+                    <div class="card service-card shadow mb-3 w-75">
+                        <div class="row">
+                            <div class="col-auto">
+                                <img src="Photos/image 12.png" class="img-fluid" alt="" style="width: 120px;">
+                            </div>
+                            <div class="col pt-3">
+                                <div class="card-block px-2">
+                                    <h4 class="card-title">Find the Perfect Fit</h4>
+                                    <p class="card-text">Everybody is different, which is why we offer styles for every body.</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card service-card shadow mb-3 w-75">
+                        <div class="row">
+                            <div class="col-auto">
+                                <img src="Photos/image 13.png" class="img-fluid" alt="" style="width: 120px;">
+                            </div>
+                            <div class="col pt-3">
+                                <div class="card-block px-2">
+                                    <h4 class="card-title">Free Exchanges</h4>
+                                    <p class="card-text">One of the many reasons you can shop with peace of mind.</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card service-card shadow w-75">
+                        <div class="row">
+                            <div class="col-auto">
+                                <img src="Photos/image 14.png" class="img-fluid" alt="" style="width: 120px;">
+                            </div>
+                            <div class="col pt-3">
+                                <div class="card-block px-2">
+                                    <h4 class="card-title">Contact Our Seller</h4>
+                                    <p class="card-text">They are here to help you. That's quite literally what we pay them for.</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm">
+                <img src="Photos/XMLID 1.png" class="d-block" alt="..." style="width: 90%;">
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-5 d-flex justify-content-center">
+        <div>
+            <p style="text-align: center;">Stay connected</p>
+            <h4 style="text-align: center;">nike.react@shoes.com</h4>
+
+            <div class="icon">
+                <img src="icons/image 6.png">
+                <img src="icons/Group 33059.png">
+                <img src="icons/image 7.png">
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js " integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW " crossorigin="anonymous "></script>
+
+
+</body>
+
+</html>
